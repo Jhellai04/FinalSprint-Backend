@@ -1,0 +1,5 @@
+com/keyin/vehicle/rest/VehicleRestRepository.class
+com/keyin/security/SecurityConfig.class
+com/keyin/vehicle/Vehicle.class
+com/keyin/security/BasicAuthWebSecurityConfiguration.class
+com/keyin/RestServiceApplication.class
