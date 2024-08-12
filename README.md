@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # FinalSprint-Backend
-=======
+
 REST API
 
 This program is the backend database / REST API for the React app in our repository: https://github.com/Jhellai04/FinalSprint-Frontend.git.
