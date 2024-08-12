@@ -7,11 +7,13 @@ This program is the backend database / REST API for the React app in our reposit
 How To Work the Program:
 1. Set Up MySQL:
     Ensure MySQL Workbench is running a local instance.
-    Create a database named finals_jelljohn_db or any name you prefer. If you choose a different name, update the name in the application.properties and docker-compose.yml files.
+    Create a database named finals_jelljohn_db or any name you prefer. If you choose a different name, 
+    update the name in the application.properties and docker-compose.yml files.
 
 2. Run the Application:
     Once your database is created, run the RestServiceApplication file.
-    When the program runs, all tables and relationships will be created automatically in your MySQL database.
+    When the program runs, all tables and relationships will be created automatically in your MySQL 
+    database.
 
 3. Authentication:
     This program is set up with basic authentication.
@@ -24,9 +26,11 @@ How To Work the Program:
 
 5. Adding Data:
     Once your local instance is working with the database, you can start adding data.
-    Data can be added manually using Postman or MySQL Workbench, or you can use the files in database/queryStatements to insert 100 pieces of mock data.
+    Data can be added manually using Postman or MySQL Workbench, or you can use the files in 
+    database/queryStatements to insert 100 pieces of mock data.
     In MySQL Workbench, copy and paste all the insert statements to add data.
-    In Postman, copy and paste the JSON data and use the link http://localhost:8080/vehicle with a POST request.
+    In Postman, copy and paste the JSON data and use the link http://localhost:8080/vehicle with a POST 
+    request.
 
 6. Retrieving Data:
     Use http://localhost:8080/vehicle to get all the data.
@@ -50,10 +54,11 @@ How to Run with Docker Container
 5. Start the Docker Container:
    docker-compose up
 
-6. Verify the Container: Once the container is running, the REST API will be available from within the Docker container.
+6. Verify the Container: Once the container is running, the REST API will be available from within the 
+   Docker container.
 
 7. Test the API: Use Postman to test all the API functionalities.
 
 8. Access the API: The API should now be accessible at http://localhost:8080.
 
->>>>>>> Phase-2
+
