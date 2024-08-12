@@ -15,5 +15,13 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
+<<<<<<< HEAD
+=======
+    <data-source name="finalsprintdb@finalsprintdb.c3emypxgr5wa.us-east-1.rds.amazonaws.com" uuid="a54e0239-c092-4ffa-ba6f-a7b983939e7a">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" />
+      <user-name>root</user-name>
+      <schema-mapping />
+    </data-source>
+>>>>>>> Phase-2
   </component>
 </project>

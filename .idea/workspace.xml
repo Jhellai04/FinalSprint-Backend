@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="e12aff6c-baa3-4e54-8240-0fb5a76e227c" name="Changes" comment="Complete project implementation" />
+=======
+    <list default="true" id="e12aff6c-baa3-4e54-8240-0fb5a76e227c" name="Changes" comment="Complete project implementation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    </list>
+>>>>>>> Phase-2
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+<<<<<<< HEAD
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="Phase-2" />
@@ -18,6 +26,20 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+=======
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+>>>>>>> Phase-2
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -31,16 +53,90 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+<<<<<<< HEAD
+=======
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.JUnit 5 Test.executor": "Run",
+    "JUnit.VehicleRestRepositoryTest.executor": "Run",
+    "Maven.finalsprint_backend [package].executor": "Run",
+>>>>>>> Phase-2
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+<<<<<<< HEAD
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+=======
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.RestServiceApplication.executor": "Run",
+    "git-widget-placeholder": "Phase-2",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/keyinstudent/Documents/Semester 4/FINAL SPRINT - JohnJelliebeth/finalsprint_backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.externalResources",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.RestServiceApplication">
+    <configuration name="JUnit 5 Test" type="JUnit" factoryName="JUnit">
+      <module name="finalsprint_backend" />
+      <option name="PACKAGE_NAME" value="com.keyin" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.VehicleRestRepositoryTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleRestRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="finalsprint_backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keyin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="PACKAGE_NAME" value="com.keyin" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.VehicleRestRepositoryTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="finalsprint_backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.keyin.RestServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.JUnit 5 Test" />
+      <item itemvalue="JUnit.VehicleRestRepositoryTest" />
+      <item itemvalue="Spring Boot.RestServiceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.VehicleRestRepositoryTest" />
+      </list>
+    </recent_temporary>
+  </component>
+>>>>>>> Phase-2
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -57,13 +153,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722983350176</updated>
+<<<<<<< HEAD
       <workItem from="1722983351478" duration="1000" />
     </task>
+=======
+      <workItem from="1722983351478" duration="6634000" />
+      <workItem from="1722990984454" duration="6072000" />
+      <workItem from="1723057630448" duration="12357000" />
+      <workItem from="1723103344446" duration="1543000" />
+      <workItem from="1723104911354" duration="6571000" />
+      <workItem from="1723241570695" duration="352000" />
+      <workItem from="1723242311597" duration="12622000" />
+      <workItem from="1723403277567" duration="1511000" />
+      <workItem from="1723404797239" duration="33561000" />
+    </task>
+    <task id="LOCAL-00001" summary="Complete project implementation">
+      <option name="closed" value="true" />
+      <created>1723432465125</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723432465126</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+>>>>>>> Phase-2
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Complete project implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete project implementation" />
+  </component>
+>>>>>>> Phase-2
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
