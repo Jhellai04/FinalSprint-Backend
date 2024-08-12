@@ -33,3 +33,24 @@ How To Work the Program:
 
 How to Use with React App:
 Simply have this program running with data inserted, and the React app will make calls to the API.
+
+How to Run with Docker Container
+1. Install Docker: Make sure Docker is installed on your machine.
+
+2. Navigate to Your Project: Open your project in your development environment and then open a terminal.
+
+3. Build the Docker Image:
+   docker build -t jelljohn/finalsprints4:latest .
+
+4. Push the Docker Image:
+   docker push jelljohn/finalsprints4:latest
+
+5. Start the Docker Container:
+   docker-compose up
+
+6. Verify the Container: Once the container is running, the REST API will be available from within the Docker container.
+
+7. Test the API: Use Postman to test all the API functionalities.
+
+8. Access the API: The API should now be accessible at http://localhost:8080.
+

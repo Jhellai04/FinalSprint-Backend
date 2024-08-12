@@ -5,15 +5,13 @@ import com.keyin.vehicle.rest.VehicleRestRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-//import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import java.util.ArrayList;
 import java.util.List;
 
-import static org.mockito.Mockito.when;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
 public class VehicleRestRepositoryTest {
@@ -24,39 +22,34 @@ public class VehicleRestRepositoryTest {
     @Test
     @DisplayName("Finding vehicle by brand")
     public void testFindVehicleByBrand() {
-        Vehicle car1 = new Vehicle();
-        car1.setYear("2021");
-        car1.setBrand("Honda");
-        car1.setModel("Pilot");
-        car1.setColor("white");
-        car1.setVin("1HGCM82633A123456");
-        car1.setCost("$30,000.00");
+        // Arrange
+        Vehicle car1 = createVehicle("2021", "Honda", "Pilot", "white", "1HGCM82633A123456", "$30,000.00");
+        Vehicle car2 = createVehicle("2012", "Toyota", "Matrix", "blue", "2FMDK4KC6CBA12345", "$20,000.00");
 
-        Vehicle car2 = new Vehicle();
-        car2.setYear("2012");
-        car2.setBrand("Toyota");
-        car2.setModel("Matrix");
-        car2.setColor("blue");
-        car2.setVin("2FMDK4KC6CBA12345");
-        car2.setCost("$20,000.00");
-
-        List<Vehicle> vehicleList = new ArrayList<>();
-        vehicleList.add(car1);
-        vehicleList.add(car2);
-
-        // Mock the repository behavior
+        // Define the mock behavior
         when(vehicleRestRepository.findByBrand("Honda")).thenReturn(List.of(car1));
         when(vehicleRestRepository.findByBrand("Toyota")).thenReturn(List.of(car2));
 
-        // Simulate the repository call and check results
+        // Act
         List<Vehicle> resultHonda = vehicleRestRepository.findByBrand("Honda");
         List<Vehicle> resultToyota = vehicleRestRepository.findByBrand("Toyota");
 
-        // Assertions to validate the behavior
-        assertEquals(1, resultHonda.size());
-        assertEquals("Honda", resultHonda.get(0).getBrand());
-        assertEquals(1, resultToyota.size());
-        assertEquals("Toyota", resultToyota.get(0).getBrand());
+        // Assert
+        assertEquals(1, resultHonda.size(), "Honda vehicle list size should be 1");
+        assertEquals("Honda", resultHonda.get(0).getBrand(), "Brand should be Honda");
+
+        assertEquals(1, resultToyota.size(), "Toyota vehicle list size should be 1");
+        assertEquals("Toyota", resultToyota.get(0).getBrand(), "Brand should be Toyota");
+    }
+
+    private Vehicle createVehicle(String year, String brand, String model, String color, String vin, String cost) {
+        Vehicle vehicle = new Vehicle();
+        vehicle.setYear(year);
+        vehicle.setBrand(brand);
+        vehicle.setModel(model);
+        vehicle.setColor(color);
+        vehicle.setVin(vin);
+        vehicle.setCost(cost);
+        return vehicle;
     }
 }
-
